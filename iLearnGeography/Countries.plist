@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Chile</key>
+	<string>South America</string>
+	<key>Bolivia</key>
+	<string>South America</string>
+	<key>Brazil</key>
+	<string>South America</string>
+	<key>Argentina</key>
+	<string>South America</string>
+	<key>Colombia</key>
+	<string>South America</string>
+	<key>Papua New Guinea</key>
+	<string>Oceania</string>
+	<key>Australia</key>
+	<string>Oceania</string>
+	<key>New Zealand</key>
+	<string>Oceania</string>
+	<key>Cuba</key>
+	<string>North America</string>
+	<key>United States</key>
+	<string>North America</string>
+	<key>Canada</key>
+	<string>North America</string>
+	<key>Mexico</key>
+	<string>North America</string>
+	<key>Italy</key>
+	<string>Europe</string>
+	<key>Greece</key>
+	<string>Europe</string>
+	<key>Norway</key>
+	<string>Europe</string>
+	<key>Portugal</key>
+	<string>Europe</string>
+	<key>Germany</key>
+	<string>Europe</string>
+	<key>Sweden</key>
+	<string>Europe</string>
+	<key>Ukraine</key>
+	<string>Europe</string>
+	<key>Finland</key>
+	<string>Europe</string>
+	<key>United Kingdom</key>
+	<string>Europe</string>
+	<key>Netherlands</key>
+	<string>Europe</string>
+	<key>France</key>
+	<string>Europe</string>
+	<key>Spain</key>
+	<string>Europe</string>
+	<key>India</key>
+	<string>Asia</string>
+	<key>China</key>
+	<string>Asia</string>
+	<key>Indonesia</key>
+	<string>Asia</string>
+	<key>Japan</key>
+	<string>Asia</string>
+	<key>Pakistan</key>
+	<string>Asia</string>
+	<key>South Korea</key>
+	<string>Asia</string>
+	<key>Algeria</key>
+	<string>Africa</string>
+	<key>Congo</key>
+	<string>Africa</string>
+	<key>Egypt</key>
+	<string>Africa</string>
+	<key>Kenya</key>
+	<string>Africa</string>
+	<key>Madagascar</key>
+	<string>Africa</string>
+	<key>Morocco</key>
+	<string>Africa</string>
+	<key>Niger</key>
+	<string>Africa</string>
+	<key>Nigeria</key>
+	<string>Africa</string>
+	<key>South Africa</key>
+	<string>Africa</string>
+	<key>Sudan</key>
+	<string>Africa</string>
+</dict>
+</plist>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="rdr-Pf-Uzq">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Jigsaw Easy View Controller-->
+        <scene sceneID="MN5-Ly-H25">
+            <objects>
+                <viewController id="rdr-Pf-Uzq" customClass="JigsawEasyViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DDG-tV-oa8" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Anywhere To Start A New Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xZ3-RE-sur">
+                                <rect key="frame" x="138" y="75" width="748" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You did Good!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SED-vP-SDO">
+                                <rect key="frame" x="348" y="652" width="329" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy1" id="qaW-Jb-dyS">
+                                <rect key="frame" x="204" y="152" width="173" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy2" id="UCr-Rx-DS4">
+                                <rect key="frame" x="350" y="152" width="183" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy3" id="sD6-dx-YHk">
+                                <rect key="frame" x="464" y="149" width="231" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy4" id="NlK-fQ-0JA">
+                                <rect key="frame" x="650" y="151" width="171" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy5" id="tsl-f9-Yaj">
+                                <rect key="frame" x="202" y="292" width="166" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy6" id="Oc7-2W-yWs">
+                                <rect key="frame" x="330" y="282" width="196" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy7" id="t1K-Kx-hDm">
+                                <rect key="frame" x="454" y="245" width="246" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy8" id="x5E-kY-ceR">
+                                <rect key="frame" x="657" y="299" width="162" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy9" id="C5V-uj-obe">
+                                <rect key="frame" x="205" y="441" width="159" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy10" id="r0u-Nb-JAX">
+                                <rect key="frame" x="344" y="453" width="202" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy11" id="7jU-ii-nx6">
+                                <rect key="frame" x="507" y="409" width="178" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="11" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puzzEasy12" id="f1v-My-doJ">
+                                <rect key="frame" x="642" y="411" width="181" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapCompleteA" id="jFE-jB-J4a">
+                                <rect key="frame" x="211" y="157" width="603" height="453"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer : 00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ngx-4c-AxM">
+                                <rect key="frame" x="830" y="75" width="194" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bat-9C-Bj0">
+                                <rect key="frame" x="20" y="69" width="161" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Select Difficulty">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectDifficultyButton:" destination="rdr-Pf-Uzq" eventType="touchUpInside" id="hM7-kH-feF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <connections>
+                            <action selector="backgroundTouch:" destination="rdr-Pf-Uzq" eventType="touchUpInside" id="pvF-sW-9QC"/>
+                        </connections>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="completeJigsawA" destination="jFE-jB-J4a" id="n4I-F2-5KJ"/>
+                        <outlet property="evaluationLabel" destination="SED-vP-SDO" id="k5C-nP-vU9"/>
+                        <outlet property="instructionLabel" destination="xZ3-RE-sur" id="zIF-oY-mpR"/>
+                        <outlet property="puzzleImageEasy1" destination="qaW-Jb-dyS" id="eN5-zN-LlS"/>
+                        <outlet property="puzzleImageEasy10" destination="r0u-Nb-JAX" id="Lqn-pf-wCM"/>
+                        <outlet property="puzzleImageEasy11" destination="7jU-ii-nx6" id="cqT-qp-fpq"/>
+                        <outlet property="puzzleImageEasy12" destination="f1v-My-doJ" id="djC-yu-DVR"/>
+                        <outlet property="puzzleImageEasy2" destination="UCr-Rx-DS4" id="OMJ-UW-3YC"/>
+                        <outlet property="puzzleImageEasy3" destination="sD6-dx-YHk" id="XeE-tW-Q0e"/>
+                        <outlet property="puzzleImageEasy4" destination="NlK-fQ-0JA" id="6YL-re-xOE"/>
+                        <outlet property="puzzleImageEasy5" destination="tsl-f9-Yaj" id="bXY-ap-4do"/>
+                        <outlet property="puzzleImageEasy6" destination="Oc7-2W-yWs" id="4An-qc-8ZO"/>
+                        <outlet property="puzzleImageEasy7" destination="t1K-Kx-hDm" id="Ttl-bZ-dKo"/>
+                        <outlet property="puzzleImageEasy8" destination="x5E-kY-ceR" id="eft-bo-kAD"/>
+                        <outlet property="puzzleImageEasy9" destination="C5V-uj-obe" id="Nx1-Pv-bqR"/>
+                        <outlet property="timerLabel" destination="Ngx-4c-AxM" id="Dqx-Wo-RbD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ou-hN-Vtk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13" y="-357"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mapCompleteA" width="603" height="453"/>
+        <image name="puzzEasy1" width="173" height="165"/>
+        <image name="puzzEasy10" width="202" height="164"/>
+        <image name="puzzEasy11" width="178" height="206"/>
+        <image name="puzzEasy12" width="181" height="210"/>
+        <image name="puzzEasy2" width="183" height="192"/>
+        <image name="puzzEasy3" width="231" height="165"/>
+        <image name="puzzEasy4" width="171" height="182"/>
+        <image name="puzzEasy5" width="166" height="194"/>
+        <image name="puzzEasy6" width="196" height="209"/>
+        <image name="puzzEasy7" width="246" height="237"/>
+        <image name="puzzEasy8" width="162" height="169"/>
+        <image name="puzzEasy9" width="159" height="174"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Jigsaw Puzzle</key>
+	<string>red-dot</string>
+	<key>Study Section</key>
+	<string>red-dot</string>
+	<key>Easy Quiz</key>
+	<string>0</string>
+	<key>Medium Quiz</key>
+	<string>0</string>
+	<key>Hard Quiz</key>
+	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+	<key>Bonus Quiz</key>
+	<string>0</string>
+	<key>Facts Section</key>
+	<string>red-dot</string>
+</dict>
+</plist>

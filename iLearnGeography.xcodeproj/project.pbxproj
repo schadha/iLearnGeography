@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83106267183BB0E4006DF7AF /* JigsawPuzzleEasy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83106266183BB0E4006DF7AF /* JigsawPuzzleEasy.storyboard */; };
+		8320F29D18327539006AF724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8320F29C18327539006AF724 /* Foundation.framework */; };
+		8320F29F18327539006AF724 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8320F29E18327539006AF724 /* CoreGraphics.framework */; };
+		8320F2A118327539006AF724 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8320F2A018327539006AF724 /* UIKit.framework */; };
+		8320F2A718327539006AF724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8320F2A518327539006AF724 /* InfoPlist.strings */; };
+		8320F2A918327539006AF724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320F2A818327539006AF724 /* main.m */; };
+		8320F2AD18327539006AF724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320F2AC18327539006AF724 /* AppDelegate.m */; };
+		8320F2B018327539006AF724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8320F2AE18327539006AF724 /* Main.storyboard */; };
+		8320F2B318327539006AF724 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320F2B218327539006AF724 /* InitialViewController.m */; };
+		8320F2B518327539006AF724 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8320F2B418327539006AF724 /* Images.xcassets */; };
+		8320F2BC18327539006AF724 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8320F2BB18327539006AF724 /* XCTest.framework */; };
+		8320F2BD18327539006AF724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8320F29C18327539006AF724 /* Foundation.framework */; };
+		8320F2BE18327539006AF724 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8320F2A018327539006AF724 /* UIKit.framework */; };
+		8320F2C618327539006AF724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8320F2C418327539006AF724 /* InfoPlist.strings */; };
+		8320F2C818327539006AF724 /* iLearnGeographyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320F2C718327539006AF724 /* iLearnGeographyTests.m */; };
+		8320F2D918327A8F006AF724 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320F2D818327A8F006AF724 /* MenuViewController.m */; };
+		8320F2DC18327B41006AF724 /* TopNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320F2DB18327B41006AF724 /* TopNavigationController.m */; };
+		8320F2DF1832B22C006AF724 /* JigsawHardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320F2DE1832B22C006AF724 /* JigsawHardViewController.m */; };
+		8320F2E21832B4BA006AF724 /* clickSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8320F2E11832B4BA006AF724 /* clickSound.wav */; };
+		8320F2E41832B4EB006AF724 /* puzzlePieceCenterCoordinatesEasy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8320F2E31832B4EB006AF724 /* puzzlePieceCenterCoordinatesEasy.plist */; };
+		8320F2E71832C71B006AF724 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8320F2E61832C71B006AF724 /* DetailViewController.m */; };
+		8320F2E91832C914006AF724 /* Sections.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8320F2E81832C914006AF724 /* Sections.plist */; };
+		834942EC185422FA00FE125E /* BonusQuiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834942EB185422FA00FE125E /* BonusQuiz.storyboard */; };
+		834942EF1854297E00FE125E /* BonusQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834942EE1854297E00FE125E /* BonusQuizViewController.m */; };
+		834942F1185434AF00FE125E /* UnitedStates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 834942F0185434AF00FE125E /* UnitedStates.plist */; };
+		834942F41855339600FE125E /* SectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 834942F31855339600FE125E /* SectionCell.m */; };
+		83508336183BAC5400A2BE62 /* JigsawEasyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83508335183BAC5400A2BE62 /* JigsawEasyViewController.m */; };
+		83508338183BAD1C00A2BE62 /* puzzlePieceCenterCoordinatesHard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83508337183BAD1C00A2BE62 /* puzzlePieceCenterCoordinatesHard.plist */; };
+		8399544D183581AC0087B135 /* JigsawPuzzleHard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8399544C183581AC0087B135 /* JigsawPuzzleHard.storyboard */; };
+		83B2DADD1841A632006A8AD4 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83B2DADC1841A632006A8AD4 /* Countries.plist */; };
+		83D9C8D9183EAB4000D3AD8C /* StudySection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D9C8D8183EAB4000D3AD8C /* StudySection.storyboard */; };
+		83D9C8DC183EAB6C00D3AD8C /* StudySectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D9C8DB183EAB6C00D3AD8C /* StudySectionViewController.m */; };
+		83DFAC98185A747500EF577C /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DFAC97185A747500EF577C /* ECSlidingViewController.m */; };
+		83DFAC9A185AEB5D00EF577C /* FactsSection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DFAC99185AEB5D00EF577C /* FactsSection.storyboard */; };
+		83DFAC9D185AED9A00EF577C /* FactsSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DFAC9C185AED9A00EF577C /* FactsSectionViewController.m */; };
+		83EBA7E51846CAD00088974E /* HardQuiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EBA7E41846CAD00088974E /* HardQuiz.storyboard */; };
+		83EBA7E81846CB060088974E /* HardQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EBA7E71846CB060088974E /* HardQuizViewController.m */; };
+		83EBA7EB1846EC800088974E /* RegionSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EBA7EA1846EC800088974E /* RegionSelectorViewController.m */; };
+		83EBA7ED18470C7B0088974E /* CountryInformation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83EBA7EC18470C7B0088974E /* CountryInformation.plist */; };
+		83F050451842F75C008B93CB /* EasyQuiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F050441842F75C008B93CB /* EasyQuiz.storyboard */; };
+		83F050481842F8B3008B93CB /* EasyQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F050471842F8B3008B93CB /* EasyQuizViewController.m */; };
+		83F0504C184432A0008B93CB /* MediumQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F0504B184432A0008B93CB /* MediumQuizViewController.m */; };
+		83F0504E184432B1008B93CB /* MediumQuiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F0504D184432B1008B93CB /* MediumQuiz.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8320F2BF18327539006AF724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8320F29118327539006AF724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8320F29818327539006AF724;
+			remoteInfo = iLearnGeography;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83106266183BB0E4006DF7AF /* JigsawPuzzleEasy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JigsawPuzzleEasy.storyboard; sourceTree = "<group>"; };
+		8320F29918327539006AF724 /* iLearnGeography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLearnGeography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8320F29C18327539006AF724 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8320F29E18327539006AF724 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8320F2A018327539006AF724 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8320F2A418327539006AF724 /* iLearnGeography-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iLearnGeography-Info.plist"; sourceTree = "<group>"; };
+		8320F2A618327539006AF724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8320F2A818327539006AF724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8320F2AA18327539006AF724 /* iLearnGeography-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iLearnGeography-Prefix.pch"; sourceTree = "<group>"; };
+		8320F2AB18327539006AF724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8320F2AC18327539006AF724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8320F2AF18327539006AF724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8320F2B118327539006AF724 /* InitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		8320F2B218327539006AF724 /* InitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		8320F2B418327539006AF724 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8320F2BA18327539006AF724 /* iLearnGeographyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLearnGeographyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8320F2BB18327539006AF724 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8320F2C318327539006AF724 /* iLearnGeographyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iLearnGeographyTests-Info.plist"; sourceTree = "<group>"; };
+		8320F2C518327539006AF724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8320F2C718327539006AF724 /* iLearnGeographyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iLearnGeographyTests.m; sourceTree = "<group>"; };
+		8320F2D718327A8F006AF724 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		8320F2D818327A8F006AF724 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		8320F2DA18327B41006AF724 /* TopNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopNavigationController.h; sourceTree = "<group>"; };
+		8320F2DB18327B41006AF724 /* TopNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopNavigationController.m; sourceTree = "<group>"; };
+		8320F2DD1832B22C006AF724 /* JigsawHardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JigsawHardViewController.h; sourceTree = "<group>"; };
+		8320F2DE1832B22C006AF724 /* JigsawHardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JigsawHardViewController.m; sourceTree = "<group>"; };
+		8320F2E11832B4BA006AF724 /* clickSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clickSound.wav; sourceTree = "<group>"; };
+		8320F2E31832B4EB006AF724 /* puzzlePieceCenterCoordinatesEasy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = puzzlePieceCenterCoordinatesEasy.plist; sourceTree = "<group>"; };
+		8320F2E51832C71B006AF724 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8320F2E61832C71B006AF724 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8320F2E81832C914006AF724 /* Sections.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sections.plist; sourceTree = "<group>"; };
+		834942EB185422FA00FE125E /* BonusQuiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BonusQuiz.storyboard; sourceTree = "<group>"; };
+		834942ED1854297E00FE125E /* BonusQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonusQuizViewController.h; sourceTree = "<group>"; };
+		834942EE1854297E00FE125E /* BonusQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonusQuizViewController.m; sourceTree = "<group>"; };
+		834942F0185434AF00FE125E /* UnitedStates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UnitedStates.plist; sourceTree = "<group>"; };
+		834942F21855339600FE125E /* SectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionCell.h; sourceTree = "<group>"; };
+		834942F31855339600FE125E /* SectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionCell.m; sourceTree = "<group>"; };
+		83508334183BAC5400A2BE62 /* JigsawEasyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JigsawEasyViewController.h; sourceTree = "<group>"; };
+		83508335183BAC5400A2BE62 /* JigsawEasyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JigsawEasyViewController.m; sourceTree = "<group>"; };
+		83508337183BAD1C00A2BE62 /* puzzlePieceCenterCoordinatesHard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = puzzlePieceCenterCoordinatesHard.plist; sourceTree = "<group>"; };
+		8399544C183581AC0087B135 /* JigsawPuzzleHard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JigsawPuzzleHard.storyboard; sourceTree = "<group>"; };
+		83B2DADC1841A632006A8AD4 /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
+		83D9C8D8183EAB4000D3AD8C /* StudySection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StudySection.storyboard; sourceTree = "<group>"; };
+		83D9C8DA183EAB6C00D3AD8C /* StudySectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudySectionViewController.h; sourceTree = "<group>"; };
+		83D9C8DB183EAB6C00D3AD8C /* StudySectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudySectionViewController.m; sourceTree = "<group>"; };
+		83DFAC96185A747500EF577C /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		83DFAC97185A747500EF577C /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		83DFAC99185AEB5D00EF577C /* FactsSection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FactsSection.storyboard; sourceTree = "<group>"; };
+		83DFAC9B185AED9A00EF577C /* FactsSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsSectionViewController.h; sourceTree = "<group>"; };
+		83DFAC9C185AED9A00EF577C /* FactsSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsSectionViewController.m; sourceTree = "<group>"; };
+		83EBA7E41846CAD00088974E /* HardQuiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HardQuiz.storyboard; sourceTree = "<group>"; };
+		83EBA7E61846CB060088974E /* HardQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardQuizViewController.h; sourceTree = "<group>"; };
+		83EBA7E71846CB060088974E /* HardQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardQuizViewController.m; sourceTree = "<group>"; };
+		83EBA7E91846EC800088974E /* RegionSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionSelectorViewController.h; sourceTree = "<group>"; };
+		83EBA7EA1846EC800088974E /* RegionSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionSelectorViewController.m; sourceTree = "<group>"; };
+		83EBA7EC18470C7B0088974E /* CountryInformation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountryInformation.plist; sourceTree = "<group>"; };
+		83F050441842F75C008B93CB /* EasyQuiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EasyQuiz.storyboard; sourceTree = "<group>"; };
+		83F050461842F8B3008B93CB /* EasyQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyQuizViewController.h; sourceTree = "<group>"; };
+		83F050471842F8B3008B93CB /* EasyQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyQuizViewController.m; sourceTree = "<group>"; };
+		83F0504A184432A0008B93CB /* MediumQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediumQuizViewController.h; sourceTree = "<group>"; };
+		83F0504B184432A0008B93CB /* MediumQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediumQuizViewController.m; sourceTree = "<group>"; };
+		83F0504D184432B1008B93CB /* MediumQuiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MediumQuiz.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8320F29618327539006AF724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320F29F18327539006AF724 /* CoreGraphics.framework in Frameworks */,
+				8320F2A118327539006AF724 /* UIKit.framework in Frameworks */,
+				8320F29D18327539006AF724 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8320F2B718327539006AF724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320F2BC18327539006AF724 /* XCTest.framework in Frameworks */,
+				8320F2BE18327539006AF724 /* UIKit.framework in Frameworks */,
+				8320F2BD18327539006AF724 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8320F29018327539006AF724 = {
+			isa = PBXGroup;
+			children = (
+				8320F2A218327539006AF724 /* iLearnGeography */,
+				8320F2C118327539006AF724 /* iLearnGeographyTests */,
+				8320F29B18327539006AF724 /* Frameworks */,
+				8320F29A18327539006AF724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8320F29A18327539006AF724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8320F29918327539006AF724 /* iLearnGeography.app */,
+				8320F2BA18327539006AF724 /* iLearnGeographyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8320F29B18327539006AF724 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8320F29C18327539006AF724 /* Foundation.framework */,
+				8320F29E18327539006AF724 /* CoreGraphics.framework */,
+				8320F2A018327539006AF724 /* UIKit.framework */,
+				8320F2BB18327539006AF724 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8320F2A218327539006AF724 /* iLearnGeography */ = {
+			isa = PBXGroup;
+			children = (
+				83B05A5E183C0C7E0087F2A2 /* SlidingViewController */,
+				834942EA185422A400FE125E /* Facts Section */,
+				834942E91854229900FE125E /* Bonus Quiz */,
+				83EBA7E31846CABC0088974E /* Hard Quiz */,
+				83F050491844328E008B93CB /* Medium Quiz */,
+				83F050431842F6A9008B93CB /* Easy Quiz */,
+				83B05A5F183C0CA80087F2A2 /* Study Section */,
+				83B05A5D183C0C4E0087F2A2 /* JigsawPuzzle */,
+				8320F2AC18327539006AF724 /* AppDelegate.m */,
+				8320F2AB18327539006AF724 /* AppDelegate.h */,
+				8320F2AE18327539006AF724 /* Main.storyboard */,
+				83B2DADC1841A632006A8AD4 /* Countries.plist */,
+				8320F2E81832C914006AF724 /* Sections.plist */,
+				8320F2B418327539006AF724 /* Images.xcassets */,
+				8320F2A318327539006AF724 /* Supporting Files */,
+			);
+			path = iLearnGeography;
+			sourceTree = "<group>";
+		};
+		8320F2A318327539006AF724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8320F2A418327539006AF724 /* iLearnGeography-Info.plist */,
+				8320F2A518327539006AF724 /* InfoPlist.strings */,
+				8320F2A818327539006AF724 /* main.m */,
+				8320F2AA18327539006AF724 /* iLearnGeography-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8320F2C118327539006AF724 /* iLearnGeographyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8320F2C718327539006AF724 /* iLearnGeographyTests.m */,
+				8320F2C218327539006AF724 /* Supporting Files */,
+			);
+			path = iLearnGeographyTests;
+			sourceTree = "<group>";
+		};
+		8320F2C218327539006AF724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8320F2C318327539006AF724 /* iLearnGeographyTests-Info.plist */,
+				8320F2C418327539006AF724 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8320F2E01832B4A4006AF724 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				8320F2E11832B4BA006AF724 /* clickSound.wav */,
+			);
+			name = "Sound Files";
+			sourceTree = "<group>";
+		};
+		834942E91854229900FE125E /* Bonus Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				834942EB185422FA00FE125E /* BonusQuiz.storyboard */,
+				834942ED1854297E00FE125E /* BonusQuizViewController.h */,
+				834942EE1854297E00FE125E /* BonusQuizViewController.m */,
+				834942F0185434AF00FE125E /* UnitedStates.plist */,
+			);
+			name = "Bonus Quiz";
+			sourceTree = "<group>";
+		};
+		834942EA185422A400FE125E /* Facts Section */ = {
+			isa = PBXGroup;
+			children = (
+				83DFAC99185AEB5D00EF577C /* FactsSection.storyboard */,
+				83DFAC9B185AED9A00EF577C /* FactsSectionViewController.h */,
+				83DFAC9C185AED9A00EF577C /* FactsSectionViewController.m */,
+			);
+			name = "Facts Section";
+			sourceTree = "<group>";
+		};
+		83B05A5D183C0C4E0087F2A2 /* JigsawPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				8320F2E01832B4A4006AF724 /* Sound Files */,
+				8320F2E31832B4EB006AF724 /* puzzlePieceCenterCoordinatesEasy.plist */,
+				83508337183BAD1C00A2BE62 /* puzzlePieceCenterCoordinatesHard.plist */,
+				83106266183BB0E4006DF7AF /* JigsawPuzzleEasy.storyboard */,
+				8399544C183581AC0087B135 /* JigsawPuzzleHard.storyboard */,
+				83508334183BAC5400A2BE62 /* JigsawEasyViewController.h */,
+				83508335183BAC5400A2BE62 /* JigsawEasyViewController.m */,
+				8320F2DD1832B22C006AF724 /* JigsawHardViewController.h */,
+				8320F2DE1832B22C006AF724 /* JigsawHardViewController.m */,
+			);
+			name = JigsawPuzzle;
+			sourceTree = "<group>";
+		};
+		83B05A5E183C0C7E0087F2A2 /* SlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83DFAC96185A747500EF577C /* ECSlidingViewController.h */,
+				83DFAC97185A747500EF577C /* ECSlidingViewController.m */,
+				8320F2B118327539006AF724 /* InitialViewController.h */,
+				8320F2B218327539006AF724 /* InitialViewController.m */,
+				8320F2D718327A8F006AF724 /* MenuViewController.h */,
+				8320F2D818327A8F006AF724 /* MenuViewController.m */,
+				8320F2E51832C71B006AF724 /* DetailViewController.h */,
+				8320F2E61832C71B006AF724 /* DetailViewController.m */,
+				8320F2DA18327B41006AF724 /* TopNavigationController.h */,
+				8320F2DB18327B41006AF724 /* TopNavigationController.m */,
+				834942F21855339600FE125E /* SectionCell.h */,
+				834942F31855339600FE125E /* SectionCell.m */,
+			);
+			name = SlidingViewController;
+			sourceTree = "<group>";
+		};
+		83B05A5F183C0CA80087F2A2 /* Study Section */ = {
+			isa = PBXGroup;
+			children = (
+				83D9C8D8183EAB4000D3AD8C /* StudySection.storyboard */,
+				83D9C8DA183EAB6C00D3AD8C /* StudySectionViewController.h */,
+				83D9C8DB183EAB6C00D3AD8C /* StudySectionViewController.m */,
+			);
+			name = "Study Section";
+			sourceTree = "<group>";
+		};
+		83EBA7E31846CABC0088974E /* Hard Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				83EBA7E41846CAD00088974E /* HardQuiz.storyboard */,
+				83EBA7E61846CB060088974E /* HardQuizViewController.h */,
+				83EBA7E71846CB060088974E /* HardQuizViewController.m */,
+				83EBA7E91846EC800088974E /* RegionSelectorViewController.h */,
+				83EBA7EA1846EC800088974E /* RegionSelectorViewController.m */,
+				83EBA7EC18470C7B0088974E /* CountryInformation.plist */,
+			);
+			name = "Hard Quiz";
+			sourceTree = "<group>";
+		};
+		83F050431842F6A9008B93CB /* Easy Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				83F050441842F75C008B93CB /* EasyQuiz.storyboard */,
+				83F050461842F8B3008B93CB /* EasyQuizViewController.h */,
+				83F050471842F8B3008B93CB /* EasyQuizViewController.m */,
+			);
+			name = "Easy Quiz";
+			sourceTree = "<group>";
+		};
+		83F050491844328E008B93CB /* Medium Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				83F0504D184432B1008B93CB /* MediumQuiz.storyboard */,
+				83F0504A184432A0008B93CB /* MediumQuizViewController.h */,
+				83F0504B184432A0008B93CB /* MediumQuizViewController.m */,
+			);
+			name = "Medium Quiz";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8320F29818327539006AF724 /* iLearnGeography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8320F2CB18327539006AF724 /* Build configuration list for PBXNativeTarget "iLearnGeography" */;
+			buildPhases = (
+				8320F29518327539006AF724 /* Sources */,
+				8320F29618327539006AF724 /* Frameworks */,
+				8320F29718327539006AF724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLearnGeography;
+			productName = iLearnGeography;
+			productReference = 8320F29918327539006AF724 /* iLearnGeography.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8320F2B918327539006AF724 /* iLearnGeographyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8320F2CE18327539006AF724 /* Build configuration list for PBXNativeTarget "iLearnGeographyTests" */;
+			buildPhases = (
+				8320F2B618327539006AF724 /* Sources */,
+				8320F2B718327539006AF724 /* Frameworks */,
+				8320F2B818327539006AF724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8320F2C018327539006AF724 /* PBXTargetDependency */,
+			);
+			name = iLearnGeographyTests;
+			productName = iLearnGeographyTests;
+			productReference = 8320F2BA18327539006AF724 /* iLearnGeographyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8320F29118327539006AF724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sanchit Chadha";
+				TargetAttributes = {
+					8320F29818327539006AF724 = {
+						DevelopmentTeam = 64PR3AJ7XW;
+					};
+					8320F2B918327539006AF724 = {
+						TestTargetID = 8320F29818327539006AF724;
+					};
+				};
+			};
+			buildConfigurationList = 8320F29418327539006AF724 /* Build configuration list for PBXProject "iLearnGeography" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8320F29018327539006AF724;
+			productRefGroup = 8320F29A18327539006AF724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8320F29818327539006AF724 /* iLearnGeography */,
+				8320F2B918327539006AF724 /* iLearnGeographyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8320F29718327539006AF724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320F2E91832C914006AF724 /* Sections.plist in Resources */,
+				83106267183BB0E4006DF7AF /* JigsawPuzzleEasy.storyboard in Resources */,
+				83EBA7E51846CAD00088974E /* HardQuiz.storyboard in Resources */,
+				8320F2E41832B4EB006AF724 /* puzzlePieceCenterCoordinatesEasy.plist in Resources */,
+				83B2DADD1841A632006A8AD4 /* Countries.plist in Resources */,
+				8320F2B518327539006AF724 /* Images.xcassets in Resources */,
+				834942F1185434AF00FE125E /* UnitedStates.plist in Resources */,
+				8320F2E21832B4BA006AF724 /* clickSound.wav in Resources */,
+				8320F2A718327539006AF724 /* InfoPlist.strings in Resources */,
+				83EBA7ED18470C7B0088974E /* CountryInformation.plist in Resources */,
+				83DFAC9A185AEB5D00EF577C /* FactsSection.storyboard in Resources */,
+				83D9C8D9183EAB4000D3AD8C /* StudySection.storyboard in Resources */,
+				8399544D183581AC0087B135 /* JigsawPuzzleHard.storyboard in Resources */,
+				834942EC185422FA00FE125E /* BonusQuiz.storyboard in Resources */,
+				83F0504E184432B1008B93CB /* MediumQuiz.storyboard in Resources */,
+				83F050451842F75C008B93CB /* EasyQuiz.storyboard in Resources */,
+				83508338183BAD1C00A2BE62 /* puzzlePieceCenterCoordinatesHard.plist in Resources */,
+				8320F2B018327539006AF724 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8320F2B818327539006AF724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320F2C618327539006AF724 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8320F29518327539006AF724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320F2DF1832B22C006AF724 /* JigsawHardViewController.m in Sources */,
+				8320F2B318327539006AF724 /* InitialViewController.m in Sources */,
+				8320F2AD18327539006AF724 /* AppDelegate.m in Sources */,
+				8320F2E71832C71B006AF724 /* DetailViewController.m in Sources */,
+				83DFAC9D185AED9A00EF577C /* FactsSectionViewController.m in Sources */,
+				8320F2A918327539006AF724 /* main.m in Sources */,
+				83DFAC98185A747500EF577C /* ECSlidingViewController.m in Sources */,
+				83EBA7E81846CB060088974E /* HardQuizViewController.m in Sources */,
+				83508336183BAC5400A2BE62 /* JigsawEasyViewController.m in Sources */,
+				83D9C8DC183EAB6C00D3AD8C /* StudySectionViewController.m in Sources */,
+				8320F2DC18327B41006AF724 /* TopNavigationController.m in Sources */,
+				834942EF1854297E00FE125E /* BonusQuizViewController.m in Sources */,
+				83EBA7EB1846EC800088974E /* RegionSelectorViewController.m in Sources */,
+				83F050481842F8B3008B93CB /* EasyQuizViewController.m in Sources */,
+				834942F41855339600FE125E /* SectionCell.m in Sources */,
+				83F0504C184432A0008B93CB /* MediumQuizViewController.m in Sources */,
+				8320F2D918327A8F006AF724 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8320F2B618327539006AF724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8320F2C818327539006AF724 /* iLearnGeographyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8320F2C018327539006AF724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8320F29818327539006AF724 /* iLearnGeography */;
+			targetProxy = 8320F2BF18327539006AF724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8320F2A518327539006AF724 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8320F2A618327539006AF724 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8320F2AE18327539006AF724 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8320F2AF18327539006AF724 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8320F2C418327539006AF724 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8320F2C518327539006AF724 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8320F2C918327539006AF724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8320F2CA18327539006AF724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8320F2CC18327539006AF724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLearnGeography/iLearnGeography-Prefix.pch";
+				INFOPLIST_FILE = "iLearnGeography/iLearnGeography-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8320F2CD18327539006AF724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLearnGeography/iLearnGeography-Prefix.pch";
+				INFOPLIST_FILE = "iLearnGeography/iLearnGeography-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8320F2CF18327539006AF724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iLearnGeography.app/iLearnGeography";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLearnGeography/iLearnGeography-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iLearnGeographyTests/iLearnGeographyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8320F2D018327539006AF724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iLearnGeography.app/iLearnGeography";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLearnGeography/iLearnGeography-Prefix.pch";
+				INFOPLIST_FILE = "iLearnGeographyTests/iLearnGeographyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8320F29418327539006AF724 /* Build configuration list for PBXProject "iLearnGeography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8320F2C918327539006AF724 /* Debug */,
+				8320F2CA18327539006AF724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8320F2CB18327539006AF724 /* Build configuration list for PBXNativeTarget "iLearnGeography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8320F2CC18327539006AF724 /* Debug */,
+				8320F2CD18327539006AF724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8320F2CE18327539006AF724 /* Build configuration list for PBXNativeTarget "iLearnGeographyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8320F2CF18327539006AF724 /* Debug */,
+				8320F2D018327539006AF724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8320F29118327539006AF724 /* Project object */;
+}

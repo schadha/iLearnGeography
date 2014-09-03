@@ -158,7 +158,7 @@
     
     // Pass data to DetailViewController
     DetailViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailView"];
-    vc.sectionRow = [NSNumber numberWithInt:rowNumber + 1];
+    vc.sectionRow = [NSNumber numberWithInteger:rowNumber + 1];
     vc.Delegate = self;
     
     TopNavigationController *nav = (TopNavigationController *) self.slidingViewController.topViewController;

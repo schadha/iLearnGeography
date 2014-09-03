@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "ECSlidingViewController.h"
 
-@interface RegionSelectorViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
+@interface RegionSelectorViewController : UIViewController<UIPickerViewDelegate>
 
 // Table view that contains the continents
-@property (nonatomic, strong) IBOutlet UIPickerView *regionPicker;
+
+@property (strong, nonatomic) IBOutlet UIPickerView *regionPicker;
 
 // Picked region name and index that is passed to the view controller by segue
 @property (nonatomic, strong) NSString *pickedRegion;

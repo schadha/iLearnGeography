@@ -38,37 +38,21 @@ static NSArray *continents;
 
 
 
-#pragma mark - Table View delegate methods
-//-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    // Set up cell
-//    UITableViewCell *cell =  [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"regionCell"];
-//    cell.textLabel.text = [continents objectAtIndex:[indexPath row]];
-//    cell.textLabel.font = [UIFont systemFontOfSize:22];
-//    cell.backgroundColor = [[UIColor alloc] initWithRed:.556862745 green:.831372549 blue:.905882353 alpha:1];
-//    
-//    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(7, 7, 30, 30)];
-//    NSString*imageName = [self parseScoreArray:[indexPath row]];
-//    imgView.image = [UIImage imageNamed:imageName];
-//    cell.imageView.image = imgView.image;
-//    
-//    return cell;
-//}
-
+#pragma mark - Picker View delegate methods
 -(UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view {
-    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(7, 7, 30, 30)];
+    
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(7, 10, 30, 30)];
     NSString*imageName = [self parseScoreArray:row];
     imgView.image = [UIImage imageNamed:imageName];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(50, -5, 80, 60)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(50, 0, 200, 60)];
     label.text = [continents objectAtIndex:row];
     label.font = [UIFont systemFontOfSize:22];
     label.textAlignment = NSTextAlignmentCenter;
-    label.backgroundColor = [[UIColor alloc] initWithRed:.556862745 green:.831372549 blue:.905882353 alpha:1];
     
-    UIView *tmpView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 110, 60)];
+    UIView *tmpView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 60)];
     [tmpView insertSubview:imgView atIndex:0];
-    [tmpView insertSubview:label atIndex:1];
+    [tmpView insertSubview:label atIndex:0];
     
     return tmpView;
 }
@@ -116,19 +100,9 @@ static NSArray *continents;
     return @"red-dot";
 }
 
-//-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-//{
-//    return 1;
-//}
-
 -(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
-    return 2;
+    return 1;
 }
-
-//-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-//{
-//    return continents.count;
-//}
 
 -(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
     return continents.count;
@@ -136,16 +110,11 @@ static NSArray *continents;
 
 // Perform segue based on the selected table cell
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
-    self.pickedRegion =  [continents objectAtIndex:[self.regionPicker selectedRowInComponent:1]];
-    self.regionIndex = [NSNumber numberWithInt:row];
+    NSLog(@"Component: %ld\n", (long)component);
+    self.pickedRegion =  [continents objectAtIndex:[self.regionPicker selectedRowInComponent:0]];
+    self.regionIndex = [NSNumber numberWithInteger:row];
     [self performSegueWithIdentifier:self.pickedRegion sender:self];
 }
-//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    self.pickedRegion = [[[self.regionPicker cellForRowAtIndexPath:indexPath] textLabel]text];
-//    self.regionIndex = [NSNumber numberWithInt:[indexPath row]];
-//    [self performSegueWithIdentifier:self.pickedRegion sender:self];
-//}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

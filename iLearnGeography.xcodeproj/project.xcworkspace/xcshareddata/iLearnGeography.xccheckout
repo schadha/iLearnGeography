@@ -8,12 +8,12 @@
 	<string>D1188E1B-1F8C-49CD-A950-571AB9998A8F</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>021E8318EC75A87B06E161F52C5825E1364D7FE7</key>
+		<key>9B470D4D64B637F8FEEE053F497DDA668A3BCB64</key>
 		<string>https://github.com/schadha/iLearnGeography.git</string>
 	</dict>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>021E8318EC75A87B06E161F52C5825E1364D7FE7</key>
+		<key>9B470D4D64B637F8FEEE053F497DDA668A3BCB64</key>
 		<string>iLearnGeography</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -21,14 +21,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>021E8318EC75A87B06E161F52C5825E1364D7FE7</string>
+	<string>9B470D4D64B637F8FEEE053F497DDA668A3BCB64</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>021E8318EC75A87B06E161F52C5825E1364D7FE7</string>
+			<string>9B470D4D64B637F8FEEE053F497DDA668A3BCB64</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iLearnGeography</string>
 		</dict>
